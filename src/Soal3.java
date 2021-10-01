@@ -10,7 +10,7 @@ public class Soal3 {
 		int a = Integer.parseInt(index[0]);
 		int b = Integer.parseInt(index[2]);	
 		int c = 0;
-		if(a<=100 && b<=100) {
+		if(a<=1000 && b<=1000) {
 			switch(index[1]) {
 				case "+":
 					c = a+b;
